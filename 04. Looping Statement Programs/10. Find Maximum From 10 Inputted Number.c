@@ -1,5 +1,5 @@
  #include<stdio.h>
-        #include<conio.h>
+ #include<conio.h>
 
         int main()
         {
@@ -11,20 +11,20 @@
             {
                 printf("\n\t Enter No %d= ", Cnt);
                 scanf("%d", &No);
-            }
 
-            if(Cnt == 1)
-            {
-                Max = No;
-                continue:
 
-            }
+                if( Cnt == 1 )
+                {
+                    Max = No;
+                    continue;
 
-            if(No >Max)
-            {
-                Max = No;
-            }
-        }
+                }
+
+                if( No > Max )
+                {
+                    Max = No;
+                }
+           }
                 printf("\n Press Any Key To get Maximum from Given No => ");
                 getche();
 
